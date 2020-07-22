@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+*{
+				box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+body{
+				background: black;
+				margin:0;
+				padding: 0;
+}
+.div1{
+				position: relative;
+				width: 100%;
+				background-color: black;
+				padding: 30px;
+				color: #fff;
+				box-sizing: border-box;
+        height: auto;
+}
+
+.div1 p {
+				font-size: 20px;
+				text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+				font-weight: bold;
+				background-image: radial-gradient(circle at center, #2e3192, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+				background-size: 3000%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			  color: transparent;
+				animation-name: gradientp;
+ 				animation-direction: alternate-reverse;
+       animation-timing-function: linear;
+       animation-duration: 400s;
+       animation-iteration-count: infinite;
+				font-style: normal;
+}
+@keyframes gradientp {
+ 0% {
+  background-position: 0%;
+ }
+ 100% {
+  background-position: 1600%;
+ }
+}
+.div2,.h1 {
+				position: relative;
+				width: 100%;
+				max-height: 200px;
+ 				letter-spacing: 5px;
+        font-family: 'Raleway', sans-serif;
+				text-align: left;
+				background-image: radial-gradient(circle at center, #ffdde1, #1bffff, #ee9ca7, #2e3192, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+				background-size: 1600%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			   color: transparent;
+				 animation-name: gradientp;
+         animation-timing-function: linear;
+         animation-duration: 400s;
+         animation-iteration-count: infinite;
+ 	     	animation-direction: alternate-reverse;
+				place-content: center;
+				padding: 20px;
+				font-size: 3em;
+				font-weight: bold;
+				word-wrap: break-word;
+}
+.swiper-container { width: 100%;
+				background-color: black;
+				height: 100%;
+}
+section .swiper-container{
+				padding: 0;
+}
+section .swiper-slide {
+				margin: 0;
+
+}
+.swiper-slide {
+				text-align: center;
+      font-size: 18px;
+      background: #000;
+      height: auto;
+				background-position: center;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+			padding: 0;
+      align-items: center;
+
+}
+.swiper-slide .slide{
+				height: 600px;
+				background-color: black;
+				padding: 50px;
+				border-radius: 10px;
+				transition: 0.3s ease-in, 0.3s ease-out;
+}
+.swiper-slide .slide:hover{
+				background-color: teal;
+				transform-function: preserve-3d;
+				box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+				tranform: scale(1.02);
+}
+.swiper-slide .slide h1{
+				color: white;
+				font-size: 2em;
+				word-wrap: break-word;
+				text-align: justify;
+				font-weight: bold;
+}
+.swiper-slide .slide p{
+				font-size: 1em;
+				text-align: justify;
+ font-family: 'Josefin Sans', sans-serif;
+				font-weight: bold;
+				color: white;
+				word-break: break-word;
+}
+.swiper-slide .slide a{
+				font-size: 1em;
+				text-decoration: none;
+				text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+				color:white;
+				transition: 0.3s ease-in, 0.3s ease-out;
+				padding:10px;
+				border: 3px solid white;
+}
+.l1{
+				background-color: black;
+				width:100%;
+				color: white;
+				max-height: 2000px;
+        border-width:4px;
+				padding: 50px;
+	     }
+.l1 b{
+ background-image: radial-gradient(circle at center, #009245, #ffffff, #38ef7d, #ffffff);
+ background-size: 400%;
+ font-family: 'Josefin Sans', sans-serif;
+ background-clip: text;
+ -webkit-background-clip: text;
+color: transparent;
+ animation-direction: alternate-reverse;
+				 animation-name: gradientp;
+    animation-timing-function: linear;
+    animation-duration: 400s;
+    animation-iteration-count: infinite;
+}
+.l1 p{
+				font-size: 1em;
+				text-align: center;
+				color: white;
+				font-weight: bold;
+				word-wrap:break-word;
+ font-family: 'Josefin Sans', sans-serif;
+        background-image: radial-gradient(circle at center, #ffdde1, #1bffff, #ee9ca7, #2e3192, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+				background-size: 1400%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			 color: transparent;
+				 animation-name: gradientp;
+    animation-timing-function: linear;
+    animation-duration: 400s;
+    animation-iteration-count: infinite;
+ 		animation-direction: alternate-reverse;
+}
+h1{
+				font-size: 3em;
+				color: white;
+			  margin: 5px;
+ background-image: radial-gradient(circle at center, #fdfcfb, #e2d1c3, #ffdde1, #1bffff, #ee9ca7, #2e3192, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+				background-size: 1400%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			 color: transparent;
+font-family: 'Raleway', sans-serif;
+				 animation-name: gradientp;
+ 					animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 400s;
+    animation-iteration-count: infinite;
+}
+.l1 a{
+ text-decoration: none;
+				font-weight: bold;
+				font-size: 30px;
+				outline: none;
+				transition: 0.7s ease-in, 0.7s ease-out;
+				padding: 13px;
+        border: 2px solid white;
+  font-family: 'Josefin Sans', sans-serif;
+        background-image: radial-gradient(circle at center, #ffdde1, #1bffff, #ee9ca7, #2e3192, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+				background-size: 1400%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			 color: transparent;
+				 animation-name: gradientp;
+    animation-timing-function: linear;
+    animation-duration: 400s;
+    animation-iteration-count: infinite;
+ 		animation-direction: alternate-reverse;
+}
+.fade{
+ color: white;
+ font-size:1em;
+ font-family: 'Josefin Sans', sans-serif;
+ animation-name: fade;
+    animation-timing-function: alternate-reverse;
+    animation-duration: 2s;
+ animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+ font-weight: bold;
+ padding:20px;
+}
+@keyframes fade{
+ 0%{opacity: 0;}
+ 100%{opacity:1;}
+}
+#seediv{
+				width:100%;
+				position:relative;
+				color: black;
+				background-color: black;
+				padding:10px;
+				max-height: 200px;
+}
+#seediv a{
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+				letter-spacing: 3px;
+				font-size: 1em;
+				text-align: justify;
+				float: right;
+				transition: 0.7s ease-in, 0.7s ease-out;
+				outline: none;
+ font-family: 'Josefin Sans', sans-serif;
+ background-image: radial-gradient(circle at center, #d8b5ff, #1eae98, #93a5cf);
+				background-size: 300%;
+				background-clip: text;
+			  -webkit-background-clip: text;
+			 color: transparent;
+				 animation-name: gradientp;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ 		animation-direction: alternate-reverse;
+}
+.footer{
+				max-height: 400px;
+				background-color: black;
+padding:0px;
+ margin: 0;
+				color:white;
+}
+.footer img{
+ width:100%;
+ height:auto;
+}
+.prefooter{
+ width: 100%;
+ padding: 30px;
+ margin:0;
+ font-size:1.3em;
+ height: auto;
+ position:relative;
+ }
+.prefooter .f1{
+ width:50%;
+ text-align: justify;
+padding: 30px;}
+h2{
+ font-size:1.5em;
+ text-align: center;
+ background-image: radial-gradient(circle at center, #2e3192, #1bffff, #a1c4fd, #c2e9fd, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+ background-size: 1800%;
+ font-family: 'Raleway', sans-serif;
+ background-clip: text;
+ -webkit-background-clip: text;
+  color: transparent;
+  animation-name: gradientp;
+ 	animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-duration: 400s;
+  animation-iteration-count: infinite
+}
+.prefooter .f1 li{
+ list-style-type: none;
+ line-height: 30px;
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+ background-image: radial-gradient(circle at center, #2e3192, #1bffff, #a1c4fd, #c2e9fd, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+ background-size: 1800%;
+ background-clip: text;
+ -webkit-background-clip: text;
+ color: transparent;
+ animation-name: gradientp;
+ animation-direction: alternate-reverse;
+ animation-timing-function: linear;
+ animation-duration: 400s;
+ animation-iteration-count: infinite;
+}
+.icons{
+ position:relative;
+height: auto;
+ width: 100%;
+ padding: 0px;
+ font-size: 3em;
+ text-align: center;
+ }
+.icons ul{
+ list-style-type: none;
+ display: flex;
+ text-align: center;
+ flex-direction: row;
+ justify-content: space-evenly;
+ }
+.icons ul li a{
+ color:white;
+ font-size: 1em;
+ text-decoration: none;
+ margin: 5px;
+ outline: none;
+ text-align: center;}
+.svg{
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+padding: 30px;
+align-items: center;
+position: relative;
+}
+@keyframes line-anim {
+	to{
+		stroke-dashoffset: 0;
+	}
+}
+.svg #logo path:nth-child(2){
+stroke-dasharray: 300;
+stroke-dashoffset: 300;
+animation-name: line-anim;
+animation-direction: alternate-reverse;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+.svg #logo path:nth-child(3){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.svg #logo path:nth-child(4){
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 6s;
+}
+.svg #logo path:nth-child(4){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 9s;
+}
+.svg #logo path:nth-child(5){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 12s;
+}
+.svg #logo path:nth-child(6){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 15s;
+}
+.svg #logo path:nth-child(7){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 18s;
+}
+.svg #logo path:nth-child(8){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 21s;
+}
+.svg #logo path:nth-child(9){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 24s;
+}
+.svg #logo path:nth-child(10){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 27s;
+}
+.svg #logo path:nth-child(11){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 30s;
+}
+.svg #logo path:nth-child(12){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 33s;
+}
+.svg #logo path:nth-child(13){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 36s;
+}
+.svg #logo path:nth-child(14){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 39s;
+}
+.svg #logo path:nth-child(15){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 42s;
+}
+.svg #logo path:nth-child(16){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 45s;
+}
+.svg #logo path:nth-child(17){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 48s;
+}
+.svg #logo path:nth-child(18){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 51s;
+}
+.svg #logo path:nth-child(19){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 54s;
+}
+.svg #logo path:nth-child(20){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 57s;
+}
+.svg #logo path:nth-child(21){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 60s;
+}
+.svg #logo path:nth-child(22){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 63s;
+}
+.svg #logo path:nth-child(23){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 66s;
+}
+.svg #logo path:nth-child(23){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 69s;
+}.svg #logo path:nth-child(24){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 72s;
+}.svg #logo path:nth-child(25){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 75s;
+}.svg #logo path:nth-child(26){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 78s;
+}.svg #logo path:nth-child(27){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 81s;
+}.svg #logo path:nth-child(28){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 84s;
+}.svg #logo path:nth-child(29){
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+	animation-name: line-anim;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 87s;
+}

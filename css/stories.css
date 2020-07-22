@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+*{
+				box-sizing: border-box;
+}
+body{
+				background-color: black;
+				color: white;
+				padding: 0px;
+				margin: 0px;
+}
+@keyframes gradientp {
+ 0% {
+  background-position: 0%;
+ }
+ 100% {
+  background-position: 2000%;
+ }
+}
+.header{
+		font-size: 3em;
+		position: relative;
+	  text-align: center;
+		font-weight: bold;
+		padding:30px;
+    font-family: 'Raleway', sans-serif;
+		background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 2900%;
+		background-clip: text;
+	  -webkit-background-clip: text;
+	 color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+}
+.swiper-container {
+     position:relative;
+     width: 100%;
+     height: 100%;
+     background-color: black;
+}
+.special{
+    width: auto;
+    height: auto;
+		text-align: center;
+		font-family: 'Josefin Sans', sans-serif;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		padding: 30px;
+    background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+		background-size: 4500%;
+		background-clip: text;
+	  -webkit-background-clip: text;
+	 color: transparent;
+	  animation-name: gradientp;
+ 		animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.special h3{
+	margin-top: 20px;
+	font-size: 2.6em;
+	margin: 5px;
+	background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+	background-size: 4500%;
+	background-clip: text;
+	-webkit-background-clip: text;
+ color: transparent;
+	animation-name: gradientp;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-duration: 900s;
+	animation-iteration-count: infinite;
+}
+.special p{
+	font-size: 1.6em;
+	margin: 5px;
+	background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+	background-size: 4500%;
+	background-clip: text;
+	-webkit-background-clip: text;
+ color: transparent;
+	animation-name: gradientp;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-duration: 900s;
+	animation-iteration-count: infinite;
+}
+.special a{
+	outline: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 10px;
+	border: 2px solid white;
+	padding: 5px;
+	background-image: radial-gradient(circle at center, #1bffff, #d4145a, #fbb03b, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #ea8d8d, #a890fd, #c6ea8d, #fe90af, #009245, #f3ee21, #ff5f6d, #ffc371, #6fd6ff, #4e65ff, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+	background-size: 4500%;
+	-webkit-background-clip: text;
+    color: transparent;
+	animation-name: gradientp;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-duration: 900s;
+	animation-iteration-count: infinite;
+}
+b{
+	font-size: 2.5em;
+	margin: 5px;
+	background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+  background-size: 2900%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-name: gradientp;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-duration: 900s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+.footer{
+ font-size: 2em;
+ position: relative;
+ justify-content: center;
+ line-height: 50px;
+ padding:30px;
+ text-align: center;
+}
+.footer p{
+	font-size: 1em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+  background-size: 2900%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-name: gradientp;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-duration: 900s;
+  animation-iteration-count: infinite;
+}
+.footer a {
+	font-size: 1em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+	background-size: 2900%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	animation-name: gradientp;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-duration: 900s;
+	animation-iteration-count: infinite;
+}
+.icons{
+ position:relative;
+ height: auto;
+ width: 100%;
+ }
+.icons p{
+    font-size: 1.5em;
+		padding: 20px;
+	  text-align: center;
+	  background-image: radial-gradient(circle at center, #c33764, #1d2671, #a9f1df, #ffbbbb, #2e3192, #ffecd2, #fcb69f, #1bffff, #ee9ca7, #ffdde1, #009245, #f3ee21, #ff5f6d, #ffc371, #bff098, #6fd6ff, #4e65ff, #92effd, #e4efe9, #93a5cf, #ffecd2, #fcb69f);
+	  background-size: 2900%;
+	  background-clip: text;
+	  -webkit-background-clip: text;
+	 color: transparent;
+	 font-family: 'Josefin Sans', sans-serif;
+	 animation-name: gradientp;
+	 animation-direction: alternate-reverse;
+	 animation-timing-function: linear;
+	 animation-duration: 900s;
+}
+.icons a{
+ color:white;
+ font-size:2em;
+ text-decoration: none;
+ outline: none;
+ text-align: center;
+ -webkit-box-align: center;
+ padding: 20px;
+ text-align: center;
+ }
